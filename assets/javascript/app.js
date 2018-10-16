@@ -32,10 +32,13 @@ var movies = ["dog", "cat", "whale", "rabbit"];
 
                             // Creating an image tag
                             var personImage = $("<img>");
-
+                            var animateImage = $("<img>");
                             // Giving the image tag an src attribute of a proprty pulled off the
                             // result item
+                            personImage.addClass("gif");
                             personImage.attr("src", results[i].images.fixed_height_still.url);
+                            personImage.attr("data-state" , "still")
+                            animateImage.attr("src", results[i].images.fixed_height.url);
 
                             // Appending the paragraph and personImage we created to the "gifDiv" div we created
                             gifDiv.append(p);
@@ -48,6 +51,19 @@ var movies = ["dog", "cat", "whale", "rabbit"];
                 });
 
             }
+
+            $(".gif").on("click", function() {
+                
+                var src = $(personImage).attr("src");
+                console.log(src);
+               
+                if (src === results[i].images.fixed_height_still.url) {
+                    $(personImage).attr("src", $(animateImage).attr("src"))
+                 
+                } else {
+                    $(personImage).attr("src", $(personImage).attr("src"))
+                }
+              });
 
             // Function for displaying movie data
             function renderButtons() {
