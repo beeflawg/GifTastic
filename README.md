@@ -4,7 +4,7 @@
 https:<i></i>//beeflawg.github.<i></i>io/GifTastic/
 
 ### Github - ([Link](https://github.com/beeflawg/GifTastic))
-https:<i></i>//github.<i></i>com/beeflawg/GifTastic)
+https:<i></i>//github.<i></i>com/beeflawg/GifTastic
 
 ### Function
 Home Page - Search buttons with animal names and input box to create/add new button/animal to search buttons
