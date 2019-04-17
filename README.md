@@ -3,7 +3,7 @@
 ### Deployment - ([Link](https://beeflawg.github.io/GifTastic/))
 https:<i></i>//beeflawg.github.<i></i>io/GifTastic/
 
-### Github - ([Link](https://github.com/beeflawg/GifTastic)))
+### Github - ([Link](https://github.com/beeflawg/GifTastic))
 https:<i></i>//github.<i></i>com/beeflawg/GifTastic)
 
 ### Function
